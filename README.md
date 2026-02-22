@@ -8,7 +8,9 @@ Our benchmarks show that **XGBoost** currently leads in accuracy, while **PCA** 
 
 | Model | Dataset | Accuracy |
 | :--- | :--- | :--- |
+| **RandomForest** | Original | **84.92%** |
 | **XGBoost** | Original | **82.12%** |
+| **RandomForest** | PCA-transformed | **81.56%** |
 | **Logistic Regression** | PCA-transformed | **81.01%** |
-| **Random Forest** | Original/PCA | **80.45%** |
 | **Logistic Regression** | Original | **80.45%** |
+| **XGBoost** | PCA-transformed | **79.89%** |
